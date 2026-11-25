@@ -1,26 +1,16 @@
-# Albatross.swift
+# iOSDC Japan 2024 Albatross.swift
 
+https://github.com/nsfisis/iosdc-japan-2024-albatross のアーカイブ。
 
-# これは何？
+元々は iOSDC Japan 2024 の企画「Swift コードバトル」向けに作られた Swift 等によるコードゴルフサイトでしたが、カンファレンス終了に伴って運用を停止したため静的サイトとしてアーカイブしました。
 
-2024-08-22 から 2024-08-24 にかけて開催された [iOSDC Japan 2024](https://iosdc.jp/2024/) の中の企画、Swift コードバトルのシステムです。
+サイト: https://t.nil.ninja/iosdc-japan/2024/code-battle/
 
-[サイトはこちら (現在は新規にプレイすることはできません)](https://t.nil.ninja/iosdc-japan/2024/code-battle/)
+## ライセンス
 
+このリポジトリ中のファイルには、以下を除いて The MIT License が適用されます。
 
-# サンドボックス化の仕組み
+- [public/favicon.svg](public/favicon.svg)
+- [public/files/img/ 以下のアイコンファイル](public/files/img/)
 
-ユーザから任意のコードを受け付ける関係上、何も対策をしないと深刻な脆弱性を抱えてしまいます。
-
-このシステムでは、送信されたコードを [SwiftWasm](https://swiftwasm.org/) によって WebAssembly に変換することでサンドボックス化をおこなっています。
-
-
-# License
-
-The contents of the repository are licensed under The MIT License, except for
-
-* [backend/admin/assets/css/normalize.css](backend/admin/assets/normalize.css),
-* [backend/admin/assets/css/sakura.css](backend/admin/assets/sakura.css) and
-* [frontend/public/favicon.svg](frontend/public/favicon.svg).
-
-See [LICENSE](./LICENSE) for copylight notice.
+ライセンス表記については [LICENSE](./LICENSE) をご覧ください。
