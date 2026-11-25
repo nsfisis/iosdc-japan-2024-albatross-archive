@@ -16,6 +16,6 @@ RUN npm run build
 FROM nginx:1.30.7-alpine
 
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY --from=builder /app/dist /var/www/iosdc-japan/2024/code-battle-archive
+COPY --from=builder /app/dist /var/www/iosdc-japan/2024/code-battle
 
 EXPOSE 80
