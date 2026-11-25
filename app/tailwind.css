@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --text-10xl: 16rem;
-}
-
 @utility bg-iosdc-japan {
   @apply bg-linear-to-r from-orange-400 via-pink-500 to-purple-400;
 }
